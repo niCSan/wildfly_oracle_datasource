@@ -17,5 +17,5 @@ This will append the environment variables to the datasource in the standalone.x
 
 Example:
 
-docker run -p 8080:8080 -e "USUARIO_BD=scott" -e "PASSWD_BD=tiger" -e "CONEXION_DB=jdbc:oracle:thin:10.10.10.20:1521/HR" wildfly_oracle_datasource
+docker run -p 8080:8080 -e "USUARIO_BD=scott" -e "PASSWD_BD=tiger" -e "CONEXION_DB=jdbc:oracle:thin@:10.10.10.20:1521/HR" wildfly_oracle_datasource
 
